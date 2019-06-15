@@ -5,7 +5,7 @@ import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core';
 import Grid from '@material-ui/core/Grid';
-import mySvg from './logo.svg'
+// import {mySvg} from '../';
 
 
 const style =theme => ({
@@ -37,7 +37,7 @@ class RoleType extends Component {
         justify="center"
         alignItems="center"
          xs={12}>
-       <img src={mySvg} />
+      
         </Grid>
          <Grid item xs={12}>
          button
